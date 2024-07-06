@@ -1,0 +1,43 @@
+    <style>
+        .arrow-shape {
+            position: relative;
+            background-color: #b0893d; /* Adjust the color to match the image */
+            color: white;
+            padding: 9px 20px;
+            font-size: 1.2em;
+            font-family: Arial, sans-serif;
+            display: inline-block;
+            text-align: center;
+            border-top-left-radius: -50px;
+            line-height: 2.2;
+            width: 20%;
+        }
+        .arrow-shape:after {
+            content: '';
+            position: absolute;
+            right: -37px;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-top: 30px solid transparent; 
+            border-bottom: 30px solid transparent; 
+            border-left: 37px solid #b0893d; 
+        }
+        .space-btw{
+            margin-left: 50px;
+        }
+    </style>
+
+
+
+
+
+
+    <div style="display: flex;" >
+        <div class="arrow-shape">
+            Input Data
+        </div>
+        <div class="arrow-shape space-btw">
+            Input Data
+        </div>
+    </div>
